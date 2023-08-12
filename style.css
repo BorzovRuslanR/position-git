@@ -1,0 +1,65 @@
+.relative {
+    height: 1000px;
+    width: 500px;
+    background-color: gray;
+    position: relative;
+    /* top: 50px;
+    left: 70px; */
+    /* transform: translate(50px, 70px); */
+    margin: 100px;
+}
+
+.absolute1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    /* right: 30px;
+    bottom: 20px; */
+    /* inset: 0;
+    margin: auto; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 2;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  /* способ выравнивания по центру */
+}
+
+.absolute2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* right: 30px;
+    bottom: 20px; */
+    /* inset: 0;
+    margin: auto; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); способ выравнивания по центру*/
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    left: 20px;
+    height: 20px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+}
