@@ -24,4 +24,12 @@
 
 `$ git commit -m "Commit description"`
 
-##
+## Посмотреть историю коммитов
+
+`$ git log`
+
+## Проверить git пользователя 
+
+`$ git config --list | grep user`
+
+## 
