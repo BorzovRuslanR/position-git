@@ -50,7 +50,9 @@
 
 `$ git remote add origin https://github.com/username/repository_name.git`
 
+## Отправляем данные на репозиторий на (Github)
 
+`$ git push origin master`
 
 
 
