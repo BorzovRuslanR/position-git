@@ -32,4 +32,8 @@
 
 `$ git config --list | grep user`
 
-## 
+## Меняем конфигурацию на себя
+
+`$ git config --global user.name "Borzov Ruslan"`
+`$ git config --global user.email menejer.r@yandex.com`
+
