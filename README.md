@@ -20,14 +20,6 @@
 
 `$ git status`
 
-## Сохраняем изменения в истории git
-
-`$ git commit -m "Commit description"`
-
-## Посмотреть историю коммитов
-
-`$ git log`
-
 ## Проверить git пользователя 
 
 `$ git config --list | grep user`
@@ -36,4 +28,29 @@
 
 `$ git config --global user.name "Borzov Ruslan"`
 `$ git config --global user.email menejer.r@yandex.com`
+
+
+## Сохраняем изменения в истории git
+
+`$ git commit -m "Commit description"`
+
+## Посмотреть историю коммитов
+
+`$ git log`
+
+## Проверить наличие удалённого репозитория (Github)
+
+`git remote show origin`
+
+## Можно удалить origin
+
+`$ git remote rm origin`
+
+## Добавить удалённый репозиторий 
+
+`$ git remote add origin https://github.com/username/repository_name.git`
+
+
+
+
 
