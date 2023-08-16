@@ -54,5 +54,23 @@
 
 `$ git push origin master`
 
+## При первом скачивании проекта с Github делаем его клон (выполняется один раз)
 
+`$ git clone https://github.com/user_name/repository-name.git`
+
+## Переходим в папку repository_name
+
+`cd repository_name`
+
+## Открываем папку в VS code
+
+`$ code .`
+
+## Для скачивания обновлений с Github в уже существующий репозиторий 
+
+`$ git pull origin main`
+
+## Совмещенная команда git add и git commit
+
+`$ git commit -am "Commit text"`
 
